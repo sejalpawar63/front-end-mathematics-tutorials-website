@@ -1,0 +1,148 @@
+#container{
+   width: 1050px;   
+   margin: 0 auto;
+}  
+#header{
+    height: 100px; 
+    padding: 10px 0px;
+} 
+h1{
+    font-size: 50px;
+}
+h1.a{
+    font-size: 70px; 
+    font-weight: 100; 
+    color: blueviolet;  
+    
+} 
+a{
+    text-decoration: none;
+}  
+#brand{
+    float: left; 
+}
+#searchbox{
+    float: right; 
+    background: linear-gradient(#E4F289,#b7e953); 
+    width: 400px; 
+    height: 50px; 
+    padding: 18px 18px 0  18px; 
+    margin-top: 20px; 
+    border: 1px solid rgb(159, 241, 34);
+} 
+.searchtext{
+    float: left; 
+    width: 190px; 
+    padding: 5px; 
+    font-size: 16px; 
+    color: #8a2be2; 
+    background: white url(images/search.png) right center no-repeat; 
+    border: 1px solid #c8d03e; 
+
+
+} 
+.submitbtn{
+    float: right ; 
+    padding: 5px; 
+    font-weight: bold; 
+    color: whitesmoke; 
+    background:#A751D6; 
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}  
+#menu{
+    height: 72px; 
+    background: linear-gradient(#f7f278,#f7f278); 
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+} 
+#menu ul li{
+    float: left; 
+    padding: 0 35px; 
+    line-height: 30px; 
+    border-right: 1px solid blueviolet;
+}  
+#menu ul li:last-child{
+    border-right: none;
+}
+ .a1{
+    text-transform: uppercase; 
+    font-size: 18px; 
+    color: blueviolet; 
+    line-height: 30px; 
+    transition: font-size 0.3s ease;
+}
+.a1:hover,#a11{
+    font-size: 20px; 
+    font-weight: bold; 
+    color: blue;
+} 
+#introbox{ 
+    background: linear-gradient(#E4F289,#b7e953); 
+    margin: 16px 0; 
+    padding: 30px;
+} 
+h2{
+    font-size: 38px; 
+    color: #316901; 
+    font-weight: normal;
+} 
+#introbox p{
+    font-size: 25px; 
+    color: #628519; 
+    text-align: justify;
+}
+.slidebar{
+    height: 500px; 
+    width: 450px; 
+    border: 1px solid blueviolet; 
+    border-radius: 20px; 
+    padding: 10px 30px;
+} 
+#leftslidebar{
+    float: left;
+} 
+#rightslidebar{
+    float: right;
+} 
+.slidebar h3{
+    color: blueviolet; 
+    font-size: 30px;
+}  
+#leftslidebar ul{
+    padding-left: 10px;
+} 
+#leftslidebar ul li{
+    padding: 6px 0 6px 10px; 
+    list-style-image: url("images/arrow.png"); 
+    padding-left: 10px; 
+
+} 
+#rightslidebar ul li{
+    
+    list-style-image: url("images/tick.png");   
+   padding: 0px 0 5px 70px;
+
+}
+.slidebar ul li a{
+    text-decoration: none; 
+    font-size: 20px; 
+    color: blueviolet; 
+} 
+.slidebar ul li a:hover, .slidebar ul li a:active{
+    text-decoration: none; 
+    color: blue; 
+    font-size: 23px; 
+    font-weight: bold; 
+    transition: font-size 0.3s ease;
+} 
+.footer{
+    height: 60px; 
+    background: linear-gradient(#E4F289,#b7e953); 
+    padding: 10px 30px; 
+    margin-top: 15px;
+}
